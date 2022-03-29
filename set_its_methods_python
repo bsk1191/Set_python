@@ -1,0 +1,36 @@
+# n={1,2,3,'hello',(5,6,8)}
+# print(n,type(n))
+# m=frozenset(n)
+# print(m,type(m))
+# print(dir(set))
+
+# a={1,2,5,6}
+# b='hello',2,3,5
+# a.add(b)
+# print(a)
+
+# a.clear()
+# print(a)
+
+# print(a.copy())
+
+# a={1,2,3}; b={5,6,8}
+# print(a.intersection(b))
+
+# a={1,2,3,4,5}
+# b={4,5,6,7,8}
+# print(a.union(b))
+# print(b.union(a))
+# a.update(b)
+# b.update(a)
+# print(a)
+# print(a.difference(b))
+# print(b.difference(a))
+# print(b-a)
+# print(a-b)
+# a.discard(0)
+# a.discard(1)
+# print(a)
+# a.pop()
+# print(a)
+
